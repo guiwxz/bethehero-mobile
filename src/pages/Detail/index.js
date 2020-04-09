@@ -8,7 +8,7 @@ import { Linking } from 'react-native';
 import styles from './styles';
 import logoImg from '../../assets/logo.png';
 
-export default function Detail() {
+export default function Detail() { 
     const [detalhes, setDetalhes] = useState(false);
     const [flecha, setFlecha] = useState(false);
 
